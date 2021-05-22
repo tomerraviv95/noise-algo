@@ -1,0 +1,24 @@
+grid_size: 100
+area_name: '3'
+
+# Herald
+noise_herald_effective_radius: 500
+
+# Building
+villages_radius: 50
+villages_resolution: 10
+village_min_buildings: 10
+
+# Patient
+patient_effective_radius: 1200
+patient_contagion_radius: 500
+patient_location_type: 'relative' # ['relative', 'absolute']
+patient_location_south: 0.5  # lat
+patient_location_west: 0.5  # lon
+
+# no entrance polygon
+no_entrance_polygon_ratio: 0.7
+
+# clustering
+intersection_points_distance_threshold: 6e-4
+front_points_distance_threshold: 5e-2
